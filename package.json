@@ -1,21 +1,22 @@
 {
-  "name": "vue-tour",
-  "version": "1.5.0",
-  "description": "Vue Tour is a lightweight, simple and customizable tour plugin for use with Vue.js. It provides a quick and easy way to guide your users through your application.",
-  "author": "Pulsar <pulsar.dev.team@gmail.com>",
+  "name": "flourish-vue-tour",
+  "version": "1.0.0",
+  "description": "Flourish Vue Tour is a extension of Vue Tour from Pulsar. It provides a quick and easy way to guide your users through your application.",
+  "author": "Will <will@flourishsavings.com>",
   "license": "MIT",
   "main": "dist/vue-tour.common.js",
   "module": "dist/vue-tour.umd.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pulsardev/vue-tour.git"
+    "url": "https://github.com/will-lucena/vue-tour"
   },
   "typings": "types/index.d.ts",
   "keywords": [
+    "flourish",
     "vue",
     "tour"
   ],
-  "homepage": "https://pulsardev.github.io/vue-tour",
+  "homepage": "https://will-lucena.github.io/vue-tour",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib src/main.js",
