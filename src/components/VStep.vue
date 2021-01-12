@@ -225,7 +225,7 @@ export default {
   border-color: white; /* #ffc107, #35495e */
 
   &--dark {
-    border-color: #454d5d;
+    border-color: white;
   }
 }
 
@@ -294,9 +294,13 @@ export default {
 .v-step__header {
   margin: -1rem -1rem 0.5rem;
   padding: 0.5rem;
-  background-color: #454d5d;
+  background-color: white;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #003F7A;
+  text-align: left;
 }
 
 .v-step__content {
@@ -340,6 +344,10 @@ export default {
 }
 
 .v-step__button-next:only-child {
+  width: 100%;
+}
+
+.v-step__button-stop:only-child {
   width: 100%;
 }
 
