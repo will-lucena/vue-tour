@@ -1,11 +1,11 @@
 {
   "name": "flourish-vue-tour",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flourish Vue Tour is a extension of Vue Tour from Pulsar. It provides a quick and easy way to guide your users through your application.",
   "author": "Will <will@flourishsavings.com>",
   "license": "MIT",
-  "main": "dist/vue-tour.common.js",
-  "module": "dist/vue-tour.umd.js",
+  "main": "dist/flourish-vue-tour.common.js",
+  "module": "dist/flourish-vue-tour.umd.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/will-lucena/vue-tour"
